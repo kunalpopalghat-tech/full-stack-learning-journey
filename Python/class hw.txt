@@ -1,0 +1,58 @@
+class GYM :
+	GYM_name
+	membership
+	duration
+	trainer_name
+
+	workout()
+	book_trainer()
+	choose_membership
+
+class Food delivery:
+	customer_name
+	deliveyboy_name
+	restaurant_name
+	food_item
+	delivery_address
+
+	deliver_order()
+	track_order()
+
+class ATM machine:
+	bank_name
+	location
+	card_status
+	balance
+	expiry_date
+
+	withdraw_cash()
+	check_balance()
+	money_transfer()
+	insert_card()
+	eject_card()
+
+class collage bag:
+	brand
+	color
+	capacity
+	number_of_pockets
+
+	open()
+	close()
+	add_item()
+	remove_item()
+
+class library:
+	library_name
+	location
+	total_books
+	opening_time
+	closing_time
+	librarian_name
+
+
+	add_book()
+	search_book()
+	return_book()
+	issue_book()
+	read_book()
